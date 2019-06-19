@@ -1,6 +1,6 @@
 namespace Test.CSharp8
 {
-  public class Current : ITrendy
+  public class Current : IModel
   {
     public string Can_walk()
     {
