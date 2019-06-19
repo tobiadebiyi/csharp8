@@ -19,10 +19,11 @@ namespace Test.CSharp8
       ConsoleSpace("Ranges and Indices");
       Index position1 = 3;
       Index position2 = ^2;
+      Range range = position1..position2;
 
       var text = "1234567890";
 
-      Console.WriteLine($"Range: {text[position1..position2]}");
+      Console.WriteLine($"Range: {text[range]}");
       Console.WriteLine($"Forward: {text[position1]}");
       Console.WriteLine($"Backward: {text[position2]}");
     }
